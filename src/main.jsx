@@ -5,6 +5,7 @@ import './index.css'
 import PublicSite from './pages/PublicSite.jsx'
 import AdminLogin from './pages/AdminLogin.jsx'
 import AdminDashboard from './pages/AdminDashboard.jsx'
+import SeloAruana from './SeloAruana.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -15,5 +16,6 @@ createRoot(document.getElementById('root')).render(
         <Route path="/admin" element={<AdminDashboard />} />
       </Routes>
     </BrowserRouter>
+    <SeloAruana />
   </StrictMode>,
 )
